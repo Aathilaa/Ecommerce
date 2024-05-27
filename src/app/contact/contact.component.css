@@ -1,0 +1,73 @@
+
+
+  
+  /* Base styles */
+.contact {
+    background-color: #1D232C;
+    color: white;
+    width: 800px;
+    margin-left: 250px;
+    margin-top: 10px;
+    height: 700px;
+    border-radius: 10px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .input-box, .textarea-box {
+    height: 50px;
+    width: 700px;
+    border-radius: 5%;
+  }
+  
+  .contact button {
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    font-size: 16px; /* Adjust font size to increase button size */
+    width: 100px; /* Adjust width to increase button size */
+    height: 40px;
+  }
+  
+  .contact-style {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+  
+  /* Media query for screens with a max-width of 700px */
+  @media screen and (max-width: 700px) {
+    .contact {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .contact-style {
+      padding-left: 0;
+      padding-top: 20px;
+    }
+  
+    .input-box, .textarea-box {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+  
+    .textarea-box {
+      height: 100px; /* Adjust height for better usability on small screens */
+    }
+  
+    .contact button {
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      height: auto;
+    }
+  }
+  
